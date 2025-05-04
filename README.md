@@ -8,7 +8,7 @@ Explanation/code flow documents are included as handwritten notes in PDFs. All m
 
 ## Terminology
 
-* "AMS" = the operating system that the calculator runs (very embedded-esque, non-multitasking)
+* "AMS" = the operating system that the calculator runs (very embedded-esque, non-multitasking). Very technically different from the OS that TI-84 Plus types of calculators run.
 * "TI-BASIC" = the interpreted scripting language the calculator is designed to be programmed with
 * "m68k" = The [Motorola 68000 CPU](https://en.wikipedia.org/wiki/Motorola_68000), one of the most influential CPUs of all time, a low-power embedded version of which is used in the TI-89 Titanium 
 
