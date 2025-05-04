@@ -2,7 +2,7 @@
 
 Every Advent of Code problem solved using TI-BASIC in AMS 3.10. Code written only on a physical TI-89 Titanium.
 
-**This is WIP; latest puzzle solved is `2015 Day 1 Part 2`**
+**This is WIP; latest puzzle solved is `2015 Day 1 Part 2`** (will commit Soon™️)
 
 Explanation/code flow documents are included as handwritten notes in PDFs. All materials are under the [MIT License](./LICENSE) if not explicitly stated.
 
@@ -10,7 +10,7 @@ Explanation/code flow documents are included as handwritten notes in PDFs. All m
 
 * "AMS" = the operating system that the calculator runs (very embedded-esque, non-multitasking)
 * "TI-BASIC" = the interpreted scripting language the calculator is designed to be programmed with
-* "m68k" = The [Motorola 68000 CPU](https://en.wikipedia.org/wiki/Motorola_68000), one of the most influential CPUs of all time
+* "m68k" = The [Motorola 68000 CPU](https://en.wikipedia.org/wiki/Motorola_68000), one of the most influential CPUs of all time, which is also used in the TI-89 Titanium 
 
 ## FAQ
 
@@ -28,7 +28,7 @@ All execution timings are included in a plaintext file called `exectime` in each
 
 ### So what if it's running on an m68k with 170 KB RAM? You're coding in an interpreted language.
 
-That's correct, and I mentioned it in the first FAQ's answer for a reason. I don't want to make myself look like some sort of assembly wizard, which I'm not. There's just a certain 'feel' to TI-BASIC on AMS, and although you don't have 100% control over memory contents, it is fun to figure out how to elegantly mold my solution to the problem into the calc's highly unique set of programming features and datatypes.
+That's correct, and I mentioned it in the first FAQ's answer for a reason. I don't want to make myself look like some sort of assembly wizard, which I'm not. There's just a certain 'feel' to TI-BASIC on AMS, and although you don't have 100% control over memory contents, it is fun to figure out how to elegantly mold my solution to the problem into the calc's highly unique set of programming features and datatypes. It is also [very well-documented](https://debrouxl.github.io/gcc4ti/estack.html#top_estack) and quite predictable because it's so relatively simple, so it's not like I'm unknowingly using gobs of memory either.
 
 I suppose that I can also show that I know problem-solving so well that I can finish the entirety of Advent of Code with a language that the most powerful LLM in the world doesn't know - there simply isn't enough training data as not many people have converted their TI-BASIC to plaintext and posted it on the Internet.
 
