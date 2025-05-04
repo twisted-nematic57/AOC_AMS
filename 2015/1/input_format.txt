@@ -1,0 +1,1 @@
+Input (`in1`) should be a string with the exact same contents as the input the AoC website provides.
