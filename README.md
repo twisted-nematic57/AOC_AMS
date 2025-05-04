@@ -2,7 +2,7 @@
 
 Every Advent of Code problem solved using TI-BASIC in AMS 3.10. Code written only on a physical TI-89 Titanium. Each solution is guaranteed to use <145 KBytes of RAM during execution.
 
-**This is WIP; latest puzzle solved is `2015 Day 1 Part 2`** (will commit Soon™️)
+**This is WIP; latest puzzle solved is `2015 Day 1 Part 2`** 
 
 Explanation/code flow documents are included as handwritten notes in PDFs. All materials are under the [MIT License](./LICENSE) if not explicitly stated.
 
@@ -24,7 +24,7 @@ I don't know, it just felt like it'd be a ton of fun. Something about coding in 
 
 Mr. Wastl confidently claims on the Advent of Code website's 'About' page that ["every problem has a solution that completes in at most 15 seconds on ten-year-old hardware."](https://adventofcode.com/2024/about#:~:text=every%20problem%20has%20a%20solution%20that%20completes%20in%20at%20most%2015%20seconds%20on%20ten-year-old%20hardware.) Clearly he has not witnessed the horrors of BASIC execution speed on TI calculators. *Besides, my calc's design is 20 years old, not 10.*
 
-All execution timings are included in a plaintext file called `exectime` in each solution's respective folder. Most of the solutions take more time to run than they do to code, and that's *after* I overclocked my calc to double its original speed. I know if I made these on a TI-Nspire (which uses an ARM processor many times faster than an embedded m68k) then my solutions would run much quicker, but who needs speed when you've got novelty?
+All execution timings are included in a plaintext file called `exectime.txt` in each solution's respective folder. Most of the solutions take more time to run than they do to code, and that's *after* I overclocked my calc to double its original speed. I know if I made these on a TI-Nspire (which uses an ARM processor many times faster than an embedded m68k) then my solutions would run much quicker, but who needs speed when you've got novelty?
 
 ### So what if it's running on an m68k with 140 KB RAM? You're coding in an interpreted language.
 
