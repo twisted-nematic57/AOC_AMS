@@ -1,6 +1,6 @@
 # AOC_AMS
 
-Every Advent of Code problem solved using TI-BASIC in AMS 3.10. Code written only on a physical TI-89 Titanium.
+Every Advent of Code problem solved using TI-BASIC in AMS 3.10. Code written only on a physical TI-89 Titanium. Each solution is guaranteed to use <145 KBytes of RAM during execution.
 
 **This is WIP; latest puzzle solved is `2015 Day 1 Part 2`** (will commit Soon™️)
 
@@ -10,7 +10,7 @@ Explanation/code flow documents are included as handwritten notes in PDFs. All m
 
 * "AMS" = the operating system that the calculator runs (very embedded-esque, non-multitasking)
 * "TI-BASIC" = the interpreted scripting language the calculator is designed to be programmed with
-* "m68k" = The [Motorola 68000 CPU](https://en.wikipedia.org/wiki/Motorola_68000), one of the most influential CPUs of all time, which is also used in the TI-89 Titanium 
+* "m68k" = The [Motorola 68000 CPU](https://en.wikipedia.org/wiki/Motorola_68000), one of the most influential CPUs of all time, a low-power embedded version of which is used in the TI-89 Titanium 
 
 ## FAQ
 
@@ -18,7 +18,7 @@ Explanation/code flow documents are included as handwritten notes in PDFs. All m
 
 ### Why BASIC on a TI graphing calculator?
 
-I don't know, it just felt like it'd be a ton of fun. Something about coding in an interpreted language that's old enough to drink and drive running on a [half-century-old processor architecture](https://en.wikipedia.org/wiki/Motorola_68000#:~:text=Introduced-,1979%3B%2046%20years%20ago,-Design) with roughly 170 KB of available RAM is exciting to me. And yes, I actually code using the buttons on the calculator itself. (You get used to the layout after a while, plus the UI is far more computery than you may expect.)
+I don't know, it just felt like it'd be a ton of fun. Something about coding in an interpreted language that's old enough to drink and drive running on a [half-century-old processor architecture](https://en.wikipedia.org/wiki/Motorola_68000#:~:text=Introduced-,1979%3B%2046%20years%20ago,-Design) with roughly 140 KB of available RAM is exciting to me. And yes, I actually code using the buttons on the calculator itself. (You get used to the layout after a while, plus the UI is far more computery than you may expect.)
 
 ### What's the exec speed like?
 
@@ -26,7 +26,7 @@ Mr. Wastl confidently claims on the Advent of Code website's 'About' page that [
 
 All execution timings are included in a plaintext file called `exectime` in each solution's respective folder. Most of the solutions take more time to run than they do to code, and that's *after* I overclocked my calc to double its original speed. I know if I made these on a TI-Nspire (which uses an ARM processor many times faster than an embedded m68k) then my solutions would run much quicker, but who needs speed when you've got novelty?
 
-### So what if it's running on an m68k with 170 KB RAM? You're coding in an interpreted language.
+### So what if it's running on an m68k with 140 KB RAM? You're coding in an interpreted language.
 
 That's correct, and I mentioned it in the first FAQ's answer for a reason. I don't want to make myself look like some sort of assembly wizard, which I'm not. There's just a certain 'feel' to TI-BASIC on AMS, and although you don't have 100% control over memory contents, it is fun to figure out how to elegantly mold my solution to the problem into the calc's highly unique set of programming features and datatypes. It is also [very well-documented](https://debrouxl.github.io/gcc4ti/estack.html#top_estack) and quite predictable because it's so relatively simple, so it's not like I'm unknowingly using gobs of memory either.
 
